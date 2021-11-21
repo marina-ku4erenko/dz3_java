@@ -4,7 +4,7 @@ public class MainClass {
     public static void main(String[] args) {
 
         Notebook lenovo = new Notebook("Lenovo", "JG-444", 65990);
-        lenovo.applyDiscount40();
+        lenovo.applyDiscount(23);
         lenovo.setRating(5);
         lenovo.setDiagonal(22);
         lenovo.printInfoNotebook();
@@ -12,7 +12,7 @@ public class MainClass {
         Notebook dns = new Notebook("DD-222", 4);
         dns.setBrand("DNS");
         dns.setPrice(32590);
-        dns.applyDiscount30();
+        dns.applyDiscount(10);
         lenovo.setDiagonal(23);
         dns.printInfoNotebook();
 
@@ -26,7 +26,7 @@ public class MainClass {
         xiaomi.setBrand("Xiaomi");
         xiaomi.setPrice(112990);
         xiaomi.setDiagonal(25);
-        xiaomi.applyDiscount40();
+        xiaomi.applyDiscount(35);
         xiaomi.setRating(4);
         xiaomi.printInfoNotebook();
     }
